@@ -31,18 +31,18 @@ var openapiTests = []struct {
 	path      string
 	protofile string
 }{
-	// {name: "Google Library example", path: "examples/google/example/library/v1/", protofile: "library.proto"},
-	// {name: "Body mapping", path: "examples/tests/bodymapping/", protofile: "message.proto"},
-	// {name: "Map fields", path: "examples/tests/mapfields/", protofile: "message.proto"},
-	// {name: "Path params", path: "examples/tests/pathparams/", protofile: "message.proto"},
-	// {name: "Protobuf types", path: "examples/tests/protobuftypes/", protofile: "message.proto"},
-	// {name: "RPC types", path: "examples/tests/rpctypes/", protofile: "message.proto"},
-	// {name: "JSON options", path: "examples/tests/jsonoptions/", protofile: "message.proto"},
-	// {name: "Ignore services without annotations", path: "examples/tests/noannotations/", protofile: "message.proto"},
-	// {name: "Enum Options", path: "examples/tests/enumoptions/", protofile: "message.proto"},
+	{name: "Google Library example", path: "examples/google/example/library/v1/", protofile: "library.proto"},
+	{name: "Body mapping", path: "examples/tests/bodymapping/", protofile: "message.proto"},
+	{name: "Map fields", path: "examples/tests/mapfields/", protofile: "message.proto"},
+	{name: "Path params", path: "examples/tests/pathparams/", protofile: "message.proto"},
+	{name: "Protobuf types", path: "examples/tests/protobuftypes/", protofile: "message.proto"},
+	{name: "RPC types", path: "examples/tests/rpctypes/", protofile: "message.proto"},
+	{name: "JSON options", path: "examples/tests/jsonoptions/", protofile: "message.proto"},
+	{name: "Ignore services without annotations", path: "examples/tests/noannotations/", protofile: "message.proto"},
+	{name: "Enum Options", path: "examples/tests/enumoptions/", protofile: "message.proto"},
 	{name: "OpenAPIv3 Annotations", path: "examples/tests/openapiv3annotations/", protofile: "message.proto"},
-	// {name: "AllOf Wrap Message", path: "examples/tests/allofwrap/", protofile: "message.proto"},
-	// {name: "Additional Bindings", path: "examples/tests/additional_bindings/", protofile: "message.proto"},
+	{name: "AllOf Wrap Message", path: "examples/tests/allofwrap/", protofile: "message.proto"},
+	{name: "Additional Bindings", path: "examples/tests/additional_bindings/", protofile: "message.proto"},
 }
 
 // Set this to true to generate/overwrite the fixtures. Make sure you set it back
